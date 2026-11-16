@@ -1,66 +1,98 @@
 html {
     background-image: url("background.png");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 body {
-    background-color: #b9b9b9;
-    margin: 10%;
-    padding: 4%;
+    font-family: "Lucida Sans", sans-serif;
+    background-color: rgba(215, 215, 215, 0.85);
+    margin: 5% auto;
+    padding: 30px 40px;
+    width: 85%;
+    color: #111;
     font-size: 0.9rem;
-    line-height: 1.5;
+    line-height: 1.4;
+    box-sizing: border-box;
+}
+
+body > h1 {
+    font-size: 1.75rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+body > section {
+    margin-bottom: 15px;
 }
 body > section:first-of-type {
     background-image: url("Berners-Lee.jpg");
     background-repeat: no-repeat;
     background-position: right top;
-    background-size: auto 10rem;
-    min-height: 10rem;
-    padding-right: 14rem;
-    margin-bottom: 0.3rem;
-}
-
-body > section {
-    margin-bottom: 0.8rem;
+    background-size: auto 12rem;
+    min-height: 12rem;
+    padding-right: 260px;
 }
 
 section > h2 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.7rem;
-}
-
-section > ul {
-    padding-left: 2rem;
-}
-
-section ul ul {
-    padding-left: 2rem;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 12px;
 }
 
 section > p {
-    margin-bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+section > ul {
+    list-style-type: circle;
+    padding-left: 35px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+section ul ul {
+    list-style-type: square;
+    padding-left: 35px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+table {
+    border: 1px solid #333;
+    border-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 3px 6px;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+td {
+    text-align: left;
 }
 
 .blue {
     color: blue;
 }
 
-.green{
+.green {
     color: green;
 }
 
-table {
-    border: 1px solid black;
-    border-radius: 8px;
-    border-spacing: 2px;
-}
-
-table th,
-table td {
-    border: 1px solid black;
-    padding: 2px;
-}
-
-table th {
-    text-align: center;
+section:last-child > p:last-child {
+    font-style: italic;
+    margin-top: 25px;
+    margin-bottom: 0;
 }
