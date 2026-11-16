@@ -1,12 +1,26 @@
-body {
+html {
     background-image: url("background.png");
-    margin: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.background {
-    background-color: rgba(128, 128, 128, 0.6);
+body {
+    background-color: #b9b9b9;
+    margin: 10%;
+    padding: 4%;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+body > section:first-of-type {
+    background-image: url("Berners-Lee.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
 }
 
-.blue{
+#blue {
     color: blue;
 }
-div
+
+#green{
+    color: green;
+}
