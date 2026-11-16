@@ -14,13 +14,53 @@ body > section:first-of-type {
     background-image: url("Berners-Lee.jpg");
     background-repeat: no-repeat;
     background-position: right top;
-    background-size: contain;
+    background-size: auto 10rem;
+    min-height: 10rem;
+    padding-right: 14rem;
+    margin-bottom: 0.3rem;
 }
 
-#blue {
+body > section {
+    margin-bottom: 0.8rem;
+}
+
+section > h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+section > ul {
+    padding-left: 2rem;
+}
+
+section ul ul {
+    padding-left: 2rem;
+}
+
+section > p {
+    margin-bottom: 1rem;
+}
+
+.blue {
     color: blue;
 }
 
-#green{
+.green{
     color: green;
+}
+
+table {
+    border: 1px solid black;
+    border-radius: 8px;
+    border-spacing: 2px;
+}
+
+table th,
+table td {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+table th {
+    text-align: center;
 }
